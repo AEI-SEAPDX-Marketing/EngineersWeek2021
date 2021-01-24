@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  background-color: #282826;
+}
+
+/* Top Nav Bar Styles */
+#title {
+  background-color: #282826;
+  padding: 2% 2% 0 2%;
+	position: relative;
+}
+
+.aei-logo {
+  width: 60%;
+}
+
+.hero-row {
+  padding-top: 5%;
+}
+
+.lg-text {
+  font-size: 4.5rem;
+}
+
+.title-image {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+  width: 50%;
+}
+
+/* Header Styles */
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 900;
+	margin-bottom: 5%;
+}
+
+.header-row {
+  background-color: #282826;
+  margin: 3% auto;
+}
+
+/* Masonry */
+#img-masonry {
+  /* margin: 5% 5%;
+  text-align: center; */
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-top: 8px;
+	text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  background: #fff;
+  line-height: 1.2;
+  margin: 4em;
+}
+
+.masonry-img {
+	width: 100%;
+}
+
+article {
+  padding: 20px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background: #fff;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+main {
+  columns: 250px;
+  column-gap: 20px;
+}
+
+article {
+  break-inside: avoid-column;
+  margin-bottom: 1rem;
+}
+
+/
