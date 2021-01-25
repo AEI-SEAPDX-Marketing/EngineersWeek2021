@@ -11,7 +11,8 @@ body {
 }
 
 .aei-logo {
-  width: 60%;
+  margin-bottom: 1rem;
+  width: 50%;
 }
 
 .hero-row {
@@ -20,6 +21,10 @@ body {
 
 .lg-text {
   font-size: 4.5rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
 }
 
 .title-image {
@@ -37,9 +42,35 @@ h1 {
 	margin-bottom: 5%;
 }
 
+h2 {
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 1rem;
+
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-weight: 400;
+  line-height: 1.5rem;
+	margin-top: 8px;
+	text-align: center;
+}
+
 .header-row {
   background-color: #282826;
-  margin: 3% auto;
+  margin: 3% auto 5%;
+}
+
+.extra-lg-h1 {
+  font-size: 4.5rem;
+}
+
+/* Thank-you section */
+
+.thank-you-section {
+  margin: 10px auto;
+  padding-bottom: 1rem;
 }
 
 /* Masonry */
@@ -48,12 +79,13 @@ h1 {
   text-align: center; */
 }
 
-h3 {
-	font-size: 1.2rem;
-	font-weight: 400;
-	margin-top: 8px;
-	text-align: center;
+.long-text {
+  line-height: 1.5rem;
+  margin: auto;
+width: 80%;
 }
+
+
 
 * {
   box-sizing: border-box;
