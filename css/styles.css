@@ -1,40 +1,18 @@
 /* General Styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #282826;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  background: #fff;
+  line-height: 1.2;
+  margin: 4em;
 }
 
-/* Top Nav Bar Styles */
-#title {
-  background-color: #282826;
-  padding: 2% 2% 0 2%;
-	position: relative;
-}
-
-.aei-logo {
-  margin-bottom: 1rem;
-  width: 50%;
-}
-
-.hero-row {
-  padding-top: 5%;
-}
-
-.lg-text {
-  font-size: 4.5rem;
-}
-
-.navbar {
-  margin-bottom: 2rem;
-}
-
-.title-image {
-	position: absolute;
-	bottom: 0;
-	right: 5%;
-  width: 50%;
-}
-
-/* Header Styles */
+/*  Typography  */
 h1 {
   color: #fff;
   font-size: 3.5rem;
@@ -57,13 +35,44 @@ h3 {
 	text-align: center;
 }
 
+/* Title Row Classes & IDs */
+#title {
+  background-color: #282826;
+  padding: 2% 2% 0 2%;
+	position: relative;
+}
+
+.aei-logo {
+  margin-bottom: 1rem;
+  width: 50%;
+}
+
+.extra-lg-h1 {
+  font-size: 4.5rem;
+}
+
 .header-row {
   background-color: #282826;
   margin: 3% auto 5%;
 }
 
-.extra-lg-h1 {
+.hero-row {
+  padding-top: 5%;
+}
+
+.lg-text {
   font-size: 4.5rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.title-image {
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+  width: 50%;
 }
 
 /* Thank-you section */
@@ -80,23 +89,10 @@ h3 {
 }
 
 .long-text {
-  line-height: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   margin: auto;
-width: 80%;
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 80%;
-  background: #fff;
-  line-height: 1.2;
-  margin: 4em;
+  width: 80%;
 }
 
 .masonry-img {
@@ -124,5 +120,3 @@ article {
   break-inside: avoid-column;
   margin-bottom: 1rem;
 }
-
-/
