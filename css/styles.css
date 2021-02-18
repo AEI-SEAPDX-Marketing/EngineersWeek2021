@@ -35,6 +35,10 @@ h3 {
 	text-align: center;
 }
 
+article p {
+  text-align: center;
+}
+
 /* Title Row Classes & IDs */
 #title {
   background-color: #282826;
