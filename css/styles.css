@@ -35,9 +35,7 @@ h3 {
 	text-align: center;
 }
 
-article p {
-  text-align: center;
-}
+
 
 /* Title Row Classes & IDs */
 #title {
@@ -82,8 +80,9 @@ article p {
 /* Thank-you section */
 
 .thank-you-section {
-  margin: 10px auto;
+  margin: 10px auto 20px auto;
   padding-bottom: 1rem;
+
 }
 
 /* Masonry */
@@ -91,6 +90,8 @@ article p {
 .masonry-img {
   transition: all .2s ease-in-out;
   opacity: 0.5;
+  overflow-y:visible;
+
 }
 
 .masonry-img:hover {
@@ -98,13 +99,14 @@ article p {
   opacity: 1;
   border: 5px solid #fff;
   box-shadow: 5px 5px 3px grey;
+
 }
 
 
 .long-text {
   font-size: 1.1rem;
   line-height: 1.8rem;
-  margin: auto;
+  margin: 0 auto 15px auto;
   width: 80%;
 }
 
@@ -132,4 +134,5 @@ main {
 article {
   break-inside: avoid-column;
   margin-bottom: 1rem;
+
 }
