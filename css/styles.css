@@ -87,10 +87,18 @@ article p {
 }
 
 /* Masonry */
-#img-masonry {
-  /* margin: 5% 5%;
-  text-align: center; */
+
+.masonry-img {
+  transition: all .2s ease-in-out;
+  opacity: 0.5;
 }
+
+.masonry-img:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+
 
 .long-text {
   font-size: 1.1rem;
