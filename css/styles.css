@@ -75,8 +75,8 @@ article p {
 .title-image {
 	position: absolute;
 	bottom: 0;
-	right: 5%;
-  width: 50%;
+	right: 0;
+  max-width: 50%;
 }
 
 /* Thank-you section */
