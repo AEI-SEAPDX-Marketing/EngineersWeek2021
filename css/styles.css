@@ -94,13 +94,12 @@ h3 {
 
 }
 
-.masonry-img:hover {
+/* .masonry-img:hover {
   transform: scale(1.5);
   opacity: 1;
   border: 5px solid #fff;
   box-shadow: 5px 5px 3px grey;
-
-}
+} */
 
 
 .long-text {
