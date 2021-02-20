@@ -110,6 +110,15 @@ h3 {
   width: 80%;
 }
 
+.long-text-centered {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin: 10px auto 20px auto;
+  padding-bottom: 15px;
+  width: 80%;
+  text-align: center;
+}
+
 .masonry-img {
 	width: 100%;
 }
