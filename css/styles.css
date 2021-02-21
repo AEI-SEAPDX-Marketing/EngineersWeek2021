@@ -17,32 +17,27 @@ h1 {
   color: #fff;
   font-size: 3.5rem;
   font-weight: 900;
-	margin-bottom: 5%;
+  margin-bottom: 5%;
 }
 
 h2 {
   font-weight: 600;
   text-align: center;
   margin: 0 auto 1rem;
-
 }
 
 h3 {
-	font-size: 1.2rem;
-	font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 400;
   line-height: 1.5rem;
-	margin-top: 8px;
-	text-align: center;
+  margin-top: 8px;
+  text-align: center;
 }
 
-
-
 /* Title Row Classes & IDs */
-
 #title {
   background-color: #282826;
   padding: 2% 2% 0 2%;
-
 }
 
 .aei-logo {
@@ -50,13 +45,19 @@ h3 {
   width: 50%;
 }
 
+.big-heading {
+  position: relative;
+  z-index: 1;
+}
+
 .extra-lg-h1 {
   font-size: 4.5rem;
 }
 
 .header-row {
+  position: relative;
   background-color: #282826;
-  margin: 3% auto 5%;
+  margin: 3% auto 0;
 }
 
 .hero-row {
@@ -72,38 +73,35 @@ h3 {
 }
 
 .title-image {
-
-	bottom: 0;
-	right: 0;
-  max-width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
 }
 
 /* Thank-you section */
-
 .thank-you-section {
   margin: 10px auto 20px auto;
   padding-bottom: 1rem;
-  }
+}
 
 /* Masonry */
-
 .masonry-img {
   transition: all .2s ease-in-out;
   /* opacity: 0.5; */
   overflow: visible;
-
-
 }
 
 .masonry-img:hover {
   transform: scale(1.5);
-    -webkit-backface-visibility: hidden; /* add to fix webkit bug jitter */
-    -webkit-transform: scale(1.5); /* add to fix webkit bug jitter */
-  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  /* add to fix webkit bug jitter */
+  -webkit-transform: scale(1.5);
+  /* add to fix webkit bug jitter */
+  /* opacity: 1; */
   border: 5px solid #fff;
   box-shadow: 5px 5px 3px grey;
 }
-
 
 .long-text {
   font-size: 1.1rem;
@@ -122,13 +120,12 @@ h3 {
 }
 
 .masonry-img {
-	width: 100%;
+  width: 100%;
   overflow: visible;
 }
 
 #img-masonry {
   overflow: visible;
-
 }
 
 article {
@@ -151,5 +148,4 @@ main {
 article {
   break-inside: avoid-column;
   margin-bottom: 1rem;
-
 }
