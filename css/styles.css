@@ -38,20 +38,11 @@ h3 {
 
 
 /* Title Row Classes & IDs */
-.front-div {
-  position: static;
-  z-index: 1000;
-}
-
-.back-div {
-  position: static;
-  z-index: 0;
-}
 
 #title {
   background-color: #282826;
   padding: 2% 2% 0 2%;
-	position: relative;
+
 }
 
 .aei-logo {
@@ -81,7 +72,7 @@ h3 {
 }
 
 .title-image {
-	position: absolute;
+
 	bottom: 0;
 	right: 0;
   max-width: 50%;
@@ -92,8 +83,7 @@ h3 {
 .thank-you-section {
   margin: 10px auto 20px auto;
   padding-bottom: 1rem;
-
-}
+  }
 
 /* Masonry */
 
@@ -101,12 +91,14 @@ h3 {
   transition: all .2s ease-in-out;
   /* opacity: 0.5; */
   overflow: visible;
+
+
 }
 
 .masonry-img:hover {
   transform: scale(1.5);
     -webkit-backface-visibility: hidden; /* add to fix webkit bug jitter */
-    /-webkit-transform: scale(1.5); /* add to fix webkit bug jitter */
+    -webkit-transform: scale(1.5); /* add to fix webkit bug jitter */
   opacity: 1;
   border: 5px solid #fff;
   box-shadow: 5px 5px 3px grey;
@@ -135,8 +127,8 @@ h3 {
 }
 
 #img-masonry {
-  position: static;
   overflow: visible;
+
 }
 
 article {
