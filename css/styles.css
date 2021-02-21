@@ -99,14 +99,14 @@ h3 {
 
 .masonry-img {
   transition: all .2s ease-in-out;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   overflow: visible;
 }
 
 .masonry-img:hover {
   transform: scale(1.5);
     -webkit-backface-visibility: hidden; /* add to fix webkit bug jitter */
-    -webkit-transform: scale(1.5); /* add to fix webkit bug jitter */
+    /-webkit-transform: scale(1.5); /* add to fix webkit bug jitter */
   opacity: 1;
   border: 5px solid #fff;
   box-shadow: 5px 5px 3px grey;
