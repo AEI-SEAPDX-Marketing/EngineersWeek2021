@@ -65,6 +65,10 @@ h3 {
   padding-top: 5%;
 }
 
+.invisible {
+  visibility: hidden;:
+}
+
 .lg-text {
   font-size: 4.5rem;
 }
@@ -82,9 +86,10 @@ h3 {
 
 /* Thank-you section */
 .thank-you-section {
-  margin: 10px auto 20px auto;
+  margin: 20px auto 20px auto;
   padding-bottom: 1rem;
 }
+
 
 /* Masonry */
 .masonry-img {
@@ -155,7 +160,7 @@ a:visited {
   color: black;
 }
 
-main {
+.card-section {
   columns: 250px;
   column-gap: 20px;
 }
